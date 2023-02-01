@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Frontpage } from "./Pages/Frontpage";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hometown</h1>
+      <Frontpage />
     </div>
   );
 }
