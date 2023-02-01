@@ -23,14 +23,22 @@ export const StyledDiv = styled.div`
   ${(props) => {
     if (props.inherit)
       return `
-    background: inherit;
+    background: #F1FAEE;
     display: flex;
-    justify-content: center;`;
+    justify-content: center;
+    flex-direction: column;`;
   }}
   ${(props) => {
     if (props.item)
       return `
-    width: 50%;
+    width: 25%;
+    background: inherit;`;
+  }}
+  ${(props) => {
+    if (props.itemContainer)
+      return `
+    display: flex;
+    justify-content: center;
     background: inherit;`;
   }}
 `;

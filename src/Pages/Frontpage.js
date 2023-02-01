@@ -16,18 +16,21 @@ export const Frontpage = () => {
           <h1>Enjoy culture in this vibrant city</h1>
         </StyledDiv>
       </BackgroundDiv>
-      <h1>Top three activities to do at Sofia</h1>
       <StyledDiv inherit>
-        {activitesArr.map((item, index) => {
-          return (
-            <StyledDiv item key={index}>
-              <StyledImg src={item.image} />
-              <h2>{item.title}</h2>
-              <p>{item.desc}</p>
-            </StyledDiv>
-          );
-        })}
+        <h1>Top three activities to do at Sofia</h1>
+        <StyledDiv itemContainer>
+          {activitesArr.map((item, index) => {
+            return (
+              <StyledDiv item key={index}>
+                <StyledImg src={item.image} />
+                <h2>{item.title}</h2>
+                <p>{item.desc}</p>
+              </StyledDiv>
+            );
+          })}
+        </StyledDiv>
       </StyledDiv>
+      <StyledDiv></StyledDiv>
     </section>
   );
 };
