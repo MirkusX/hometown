@@ -53,6 +53,7 @@ export const StyledDiv = styled.div`
     background: #A8DADC;
     display: flex;
     align-items: center;
+    border-bottom: #1D3557 solid 6px;
     `;
   }}
   ${(props) => {
