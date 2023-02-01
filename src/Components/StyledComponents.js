@@ -50,6 +50,9 @@ export const StyledDiv = styled.div`
     margin: 3.125em;
     display: flex;
     padding: 1em;
+    background: #A8DADC;
+    display: flex;
+    align-items: center;
     `;
   }}
   ${(props) => {
@@ -59,6 +62,13 @@ export const StyledDiv = styled.div`
     justify-content: center;
     align-items: center;
     background: inherit;
+    `;
+  }}
+  ${(props) => {
+    if (props.guideInner)
+      return `
+    background: inherit;
+    width: 50%;
     `;
   }}
 `;
@@ -101,4 +111,20 @@ export const StyledH2 = styled.h2`
 export const StyledP = styled.p`
   color: #1d3557;
   text-align: left;
+  ${(props) => {
+    if (props.guideQuote)
+      return `
+    text-align: center;
+    font-style: italic;`;
+  }}
+`;
+
+export const StyledH3 = styled.h3`
+  font-size: 1.5rem;
+  color: #1d3557;
+  ${(props) => {
+    if (props.guideName)
+      return `
+    font-size: 1rem;`;
+  }}
 `;

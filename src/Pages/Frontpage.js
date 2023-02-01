@@ -3,11 +3,12 @@ import {
   StyledDiv,
   StyledH1,
   StyledH2,
+  StyledH3,
   StyledImg,
   StyledP,
 } from "../Components/StyledComponents";
 import { activitesArr } from "./FrontpageFiles/FrontpageArray";
-import image from "../Images/image.jpg";
+import street from "../Images/street.webp";
 
 export const Frontpage = () => {
   return (
@@ -37,18 +38,21 @@ export const Frontpage = () => {
       </StyledDiv>
       <StyledDiv guideContainer>
         <StyledDiv guideOuterDiv>
-          <StyledImg
-            title="image taken from thispersondoesnotexist"
-            guide
-            src={image}
-          />
-          <StyledDiv>
-            <h3>Your guide</h3>
-            <p>
-              “I have lived at Sofia for over 30 years, so I can show you all of
-              its best parts and hidden secrets.”
-            </p>
-            <h3>Zaid Mirjana</h3>
+          <StyledImg title="not an actual person" guide src={street} />
+          <StyledDiv guideInner>
+            <StyledH3>Your guide</StyledH3>
+            <StyledP guideQuote>
+              “Hey, hey, you gotta listen to me, you gotta hear me, are you
+              listening? It's not real man! It's a lie, it's all lies. The
+              government lies to us. They put robots in the drinking water, they
+              put spies in the toilets - to watch us! You think it's a joke, the
+              joke's on you, they're killing you! You are being harvested by a
+              marketing machine! You're not free, you're slaves! Freedom is a
+              lie! They use drugs to control you, they did it to me for a long
+              time. You need love! I need you, you need me, I love you! Love me
+              back!”
+            </StyledP>
+            <StyledH3 guideName>Soapboxer</StyledH3>
           </StyledDiv>
         </StyledDiv>
       </StyledDiv>
