@@ -97,3 +97,8 @@ export const StyledH2 = styled.h2`
   font-size: 1rem;
   color: #1d3557;
 `;
+
+export const StyledP = styled.p`
+  color: #1d3557;
+  text-align: left;
+`;

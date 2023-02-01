@@ -4,6 +4,7 @@ import {
   StyledH1,
   StyledH2,
   StyledImg,
+  StyledP,
 } from "../Components/StyledComponents";
 import { activitesArr } from "./FrontpageFiles/FrontpageArray";
 import image from "../Images/image.jpg";
@@ -28,7 +29,7 @@ export const Frontpage = () => {
                 <StyledImg src={item.image} />
                 <StyledH2>{item.title}</StyledH2>
                 <StyledH2>{item.subtitle}</StyledH2>
-                <p>{item.desc}</p>
+                <StyledP>{item.desc}</StyledP>
               </StyledDiv>
             );
           })}
