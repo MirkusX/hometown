@@ -14,13 +14,13 @@ export const activitesArr = [
     image: d2,
     title: "Broker",
     subtitle: "An ex-city on its own",
-    desc: "A distinct ex-city on its own, it maintains a distinct character apart from the rest of the city. Contains various pockets of housing projects. Some areas are distinct for high crime rate. Also contains a mix of trendy middle-class neighborhoods. Famous for its brownstones. This is the borough in which Niko Bellic initially arrives to Liberty City.",
+    desc: "A distinct ex-city on its own, it maintains a distinct character apart from the rest of the city. Contains various pockets of housing projects. Some areas are distinct for high crime rate. Also contains a mix of trendy middle-class neighborhoods. Famous for its brownstones.",
   },
   {
     image: d3,
     title: "Dukes",
     subtitle: "Old, ethnically-diverse and affluent",
-    desc: "An old ethnically-diverse, predominantly-residential area, it is the location of the Francis International Airport and the baseball stadium that is home to the Liberty City Swingers, and an Irish pub, the Steinway Beer Garden. Dukes is primarily made up of affluent and ethnically diverse middle to upper-class residential neighborhoods that use traditional Irish, Victorian and Tudor architecture; though some neighborhoods follow the typical modern New York archetype. Also contains a minority of more working class areas. ",
+    desc: "An old ethnically-diverse, predominantly-residential area, it is the location of the Francis International Airport and the baseball stadium that is home to the Liberty City Swingers, and an Irish pub, the Steinway Beer Garden. Dukes is primarily made up of affluent and ethnically diverse middle to upper-class residential neighborhoods that use traditional Irish, Victorian and Tudor architecture; though some neighborhoods follow the typical modern New York archetype. Also contains a minority of more working class areas.",
   },
   {
     image: d4,

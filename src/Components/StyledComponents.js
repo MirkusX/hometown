@@ -92,3 +92,8 @@ export const StyledH1 = styled.h1`
     color: #1D3557;`;
   }}
 `;
+
+export const StyledH2 = styled.h2`
+  font-size: 1rem;
+  color: #1d3557;
+`;

@@ -2,6 +2,7 @@ import {
   BackgroundDiv,
   StyledDiv,
   StyledH1,
+  StyledH2,
   StyledImg,
 } from "../Components/StyledComponents";
 import { activitesArr } from "./FrontpageFiles/FrontpageArray";
@@ -25,8 +26,8 @@ export const Frontpage = () => {
             return (
               <StyledDiv item key={index}>
                 <StyledImg src={item.image} />
-                <h2>{item.title}</h2>
-                <h2>{item.subtitle}</h2>
+                <StyledH2>{item.title}</StyledH2>
+                <StyledH2>{item.subtitle}</StyledH2>
                 <p>{item.desc}</p>
               </StyledDiv>
             );
@@ -35,7 +36,11 @@ export const Frontpage = () => {
       </StyledDiv>
       <StyledDiv guideContainer>
         <StyledDiv guideOuterDiv>
-          <StyledImg guide src={image} />
+          <StyledImg
+            title="image taken from thispersondoesnotexist"
+            guide
+            src={image}
+          />
           <StyledDiv>
             <h3>Your guide</h3>
             <p>
