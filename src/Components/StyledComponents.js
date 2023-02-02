@@ -34,14 +34,21 @@ export const StyledDiv = styled.div`
     if (props.item)
       return `
     width: 25%;
-    background: inherit;`;
+    background: inherit;
+    @media (max-width: 811px) {
+      width: 100%;
+    }`;
   }}
   ${(props) => {
     if (props.itemContainer)
       return `
     display: flex;
     justify-content: center;
-    background: inherit;`;
+    background: inherit;
+    @media (max-width: 811px) {
+      flex-direction: column;
+      align-items: center;
+    }`;
   }}
   ${(props) => {
     if (props.guideOuterDiv)
@@ -54,6 +61,11 @@ export const StyledDiv = styled.div`
     display: flex;
     align-items: center;
     border-bottom: #1D3557 solid 6px;
+    @media (max-width: 811px){
+      flex-direction: column;
+      margin: 3.125em 0;
+      width: 100%;
+    }
     `;
   }}
   ${(props) => {
@@ -70,6 +82,9 @@ export const StyledDiv = styled.div`
       return `
     background: inherit;
     width: 50%;
+    @media (max-width: 811px){
+      width: 100%;
+    }
     `;
   }}
 `;

@@ -8,7 +8,7 @@ export const activitesArr = [
     image: d1,
     title: "Algonquin",
     subtitle: "Self-proclaimed center of everything",
-    desc: "A bustling commercial/business district full of amazing towering skyscrapers and a varied composition of cultures. Here holds various famous landmarks, such as Star Junction (Times Square), Middle Park (Central Park), and the Rotterdam Tower (Empire State Building). This part of Liberty City is the busiest, most crowded, and has more buildings, skyscrapers, and everything in between. It is the heart of Liberty City. There is a lot of nightlife and clubs. Clubs are Hercules, Maisonette 9 and Bahama Mamas.",
+    desc: "A bustling commercial/business district full of amazing towering skyscrapers and a varied composition of cultures. Here holds various famous landmarks, such as Star Junction, Middle Park, and the Rotterdam Tower. This part of Liberty City is the busiest, most crowded, and has more buildings, skyscrapers, and everything in between. It is the heart of Liberty City. There is a lot of nightlife and clubs. Clubs are Hercules, Maisonette 9 and Bahama Mamas.",
   },
   {
     image: d2,
