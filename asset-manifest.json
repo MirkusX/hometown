@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hometown/static/css/main.073c9b0a.css",
+    "main.js": "/hometown/static/js/main.c9df42aa.js",
+    "static/js/787.ec35f74f.chunk.js": "/hometown/static/js/787.ec35f74f.chunk.js",
+    "static/media/lc.webp": "/hometown/static/media/lc.1cb23623561b484a0c88.webp",
+    "static/media/street.webp": "/hometown/static/media/street.0dcb5b8763ba4db3c825.webp",
+    "static/media/d2.webp": "/hometown/static/media/d2.abadd3bddb7d4913f825.webp",
+    "static/media/d4.webp": "/hometown/static/media/d4.6a4c58714c352f9f77f8.webp",
+    "static/media/d3.webp": "/hometown/static/media/d3.7bdf5ccadadf984218dc.webp",
+    "static/media/d1.webp": "/hometown/static/media/d1.292a34a6f426eecfa610.webp",
+    "static/media/logo.svg": "/hometown/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hometown/index.html",
+    "main.073c9b0a.css.map": "/hometown/static/css/main.073c9b0a.css.map",
+    "main.c9df42aa.js.map": "/hometown/static/js/main.c9df42aa.js.map",
+    "787.ec35f74f.chunk.js.map": "/hometown/static/js/787.ec35f74f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c9df42aa.js"
+  ]
+}
