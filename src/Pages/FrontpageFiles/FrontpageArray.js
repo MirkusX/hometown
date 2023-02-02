@@ -3,6 +3,7 @@ import d2 from "../../Images/d2.webp";
 import d3 from "../../Images/d3.webp";
 import d4 from "../../Images/d4.webp";
 
+//array for content
 export const activitesArr = [
   {
     image: d1,

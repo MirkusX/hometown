@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import lc from "../Images/lc.webp";
 
+//stylings
 export const BackgroundDiv = styled.div`
   background-image: url(${lc});
   min-height: 48.790896159317214vh;

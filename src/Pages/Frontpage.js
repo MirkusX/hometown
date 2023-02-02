@@ -24,6 +24,7 @@ export const Frontpage = () => {
       <StyledDiv inherit>
         <StyledH1 mediumH1>Districts</StyledH1>
         <StyledDiv itemContainer>
+          {/* map out array */}
           {activitesArr.map((item, index) => {
             return (
               <StyledDiv item key={index}>
